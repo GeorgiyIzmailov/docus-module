@@ -48,7 +48,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       inkeepConfig: {
-        chatButtonType: "ICON",
+        stylesheetUrls: ['/path/to/stylesheets'], // optional 
         baseSettings: {
           apiKey: "YOUR_API_KEY", // required
           integrationId: "YOUR_INTEGRATION_ID", // required
